@@ -50,3 +50,7 @@ console.log(apple); // returns string
 // no match
 const oldPerson = people.find((person) => person.age > 30);
 console.log(oldPerson); // undefined
+
+// multiple matches - first match
+const randomPerson = people.find((person) => person.age < 30);
+console.log(randomPerson); // { name: "anna", age: 20, position: "developer" }
